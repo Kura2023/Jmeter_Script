@@ -19,7 +19,7 @@ node {
 
  bat "mkdir /tmp/reports"
 
- bat "cd C:/Users/rkura/Documents/apache-jmeter-5.5/bin"
+ sh "cd C:/Users/rkura/Documents/apache-jmeter-5.5/bin"
 
       bat "jmeter -jjmeter.save.saveservice.output_format=xml
 
