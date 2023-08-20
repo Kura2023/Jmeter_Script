@@ -19,9 +19,9 @@ node {
 
  bat "mkdir /tmp/reports"
 
- bat "cd C:/Users/jsabinkari/Documents/apache-jmeter-5.5/bin"
+ bat "cd C:/Users/rkura/Documents/apache-jmeter-5.5/bin"
 
-       "jmeter -Jjmeter.save.saveservice.output_format=xml
+      bat "jmeter -Jjmeter.save.saveservice.output_format=xml
 
           -n -t app/C:/Users/rkura/Documents/Performance_Testing/Task2/Add_To_Cart.jmx
 
