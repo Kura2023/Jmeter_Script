@@ -21,9 +21,9 @@ node {
 
  bat "cd C:/Users/rkura/Documents/apache-jmeter-5.5/bin"
 
-      bat "jmeter -Jjmeter.save.saveservice.output_format=xml
+      bat "jmeter -jjmeter.save.saveservice.output_format=xml
 
-          -n -t app/C:/Users/rkura/Documents/Performance_Testing/Task2/Add_To_Cart.jmx
+          -n -t C:/Users/rkura/Documents/Performance_Testing/Task2/Add_To_Cart.jmx
 
             -l C:/Users/rkura/Documents/Performance_Testing/Task2/Report/report.jtl"
 
